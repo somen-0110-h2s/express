@@ -47,7 +47,7 @@ app.get('/403', function(req, res, next){
 
 app.get('/500', function(req, res, next){
   // trigger a generic (500) error
-  next(new Error('keyboard cat!'));
+  next(new Error('keyboard cat!'));     
 });
 
 // Error handlers
